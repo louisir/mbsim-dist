@@ -23,6 +23,8 @@ Qt 官方授权参考：
   GNU GPL v3。
 - MBSim 引入并使用了 Qt Quick 3D。Qt 官方授权页面将 Qt Quick 3D 列为开源用户
   可用的 GNU GPL v3 模块。
+- Windows 部署包也可能包含 Qt Virtual Keyboard 运行时文件。Qt 官方授权页面将
+  Qt Virtual Keyboard 也列为开源用户可用的 GNU GPL v3 模块。
 - 如果使用开源 Qt 构建并分发 MBSim 二进制包，分发方需要确保满足相应 GPL/LGPL
   条款；或者使用合适的 Qt 商业授权。
 - MBSim 的 MIT License 不会移除或削弱 Qt 自身的授权要求。

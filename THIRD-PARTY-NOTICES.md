@@ -29,6 +29,9 @@ Important points for this project:
   states that some modules are available under GNU GPL v3 rather than LGPLv3.
 - MBSim imports and uses Qt Quick 3D. Qt's licensing page lists Qt Quick 3D as a
   module available under GNU GPL v3 for open-source users.
+- The Windows deployment may also include Qt Virtual Keyboard runtime files.
+  Qt's licensing page lists Qt Virtual Keyboard as a module available under GNU
+  GPL v3 for open-source users.
 - A redistributor of a binary package built with open-source Qt must ensure that
   the applicable GPL/LGPL obligations are satisfied, or use an appropriate
   commercial Qt license.

@@ -1,6 +1,10 @@
 # MBSim Releases
 
-中文说明: [README.zh_CN.md](README.zh_CN.md)
+Languages: English | [简体中文](README.zh_CN.md) |
+[繁體中文](README.zh_TW.md) | [Deutsch](README.de.md) |
+[Español](README.es.md) | [Français](README.fr.md) |
+[Italiano](README.it.md) | [日本語](README.ja.md) |
+[한국어](README.ko.md)
 
 This repository hosts compiled release packages for MBSim, a Modbus RTU/TCP
 slave simulator.
@@ -50,6 +54,9 @@ using or redistributing the package. In particular:
   under modules available under GNU GPL v3 for open-source users. Redistributors
   must either comply with the applicable GPL/LGPL obligations or use an
   appropriate commercial Qt license.
+- Windows deployment may also include Qt Virtual Keyboard runtime files. Qt's
+  licensing documentation lists Qt Virtual Keyboard under GNU GPL v3 for
+  open-source users.
 - OpenXLSX is used for Excel register-map support and is licensed under the
   BSD 3-Clause License.
 
