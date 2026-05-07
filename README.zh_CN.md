@@ -1,6 +1,6 @@
 # MBSim 发布包
 
-语言: [English](README.md) | 简体中文 | [繁體中文](README.zh_TW.md) |
+语言: [English](README.md) | 简体中文 | [繁體中文](README.zh_HK.md) |
 [Deutsch](README.de.md) | [Español](README.es.md) |
 [Français](README.fr.md) | [Italiano](README.it.md) |
 [日本語](README.ja.md) | [한국어](README.ko.md)
