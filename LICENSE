@@ -17,7 +17,10 @@ internal deployment within your organization.
 2. No Open Source Grant
 
 MBSim is proprietary software. This license does not grant access to MBSim
-source code, and no source code license is granted.
+source code, and no source code license is granted. Possession of MBSim source
+code, build scripts, or project files does not grant permission to copy,
+redistribute, modify, publish, sublicense, or create derivative works from that
+source code unless the copyright holder gives separate written permission.
 
 3. Restrictions
 
