@@ -4,9 +4,11 @@ Este documento resume las principales obligaciones de licencia de los paquetes d
 
 ## MBSim
 
-El código propio de la aplicación MBSim y su documentación se distribuyen bajo la MIT License. Consulte [LICENSE](LICENSE).
+El código propio de la aplicación MBSim y su documentación son freeware propietario. Los paquetes oficiales de MBSim pueden instalarse y usarse gratuitamente. MBSim no es software de código abierto y el código fuente no se publica. Consulte [LICENSE](LICENSE).
 
-La MIT License se aplica al código propio de MBSim. No vuelve a licenciar como MIT las bibliotecas de terceros incluidas en el paquete portable.
+Las donaciones, cuando estén disponibles, son apoyo voluntario para el desarrollo futuro. No cambian los términos de licencia ni crean obligaciones de soporte, garantía, servicio o mantenimiento.
+
+La licencia freeware de MBSim se aplica solo al código propio y la documentación de MBSim. No vuelve a licenciar las bibliotecas de terceros incluidas en el paquete portable.
 
 ## Qt Runtime
 
@@ -23,7 +25,7 @@ Puntos importantes para este proyecto:
 - MBSim importa y usa Qt Quick 3D. La página de licencias de Qt lista Qt Quick 3D como un módulo disponible bajo GNU GPL v3 para usuarios de código abierto.
 - El despliegue de Windows también puede incluir archivos de ejecución de Qt Virtual Keyboard. La página de licencias de Qt lista Qt Virtual Keyboard como un módulo disponible bajo GNU GPL v3 para usuarios de código abierto.
 - Quien redistribuya un paquete binario creado con Qt de código abierto debe asegurarse de cumplir las obligaciones GPL/LGPL aplicables, o usar una licencia comercial de Qt adecuada.
-- La MIT License de MBSim no elimina ni reduce los requisitos de licencia de Qt.
+- La licencia freeware de MBSim no elimina ni reduce los requisitos de licencia de Qt.
 
 Cuando un paquete se crea con el script de publicación proporcionado, los textos de licencia de Qt se copian en el directorio `licenses/` del paquete si están disponibles en la instalación local de Qt.
 
@@ -53,7 +55,8 @@ El paquete portable de Windows puede incluir bibliotecas de ejecución de MinGW/
 
 Antes de redistribuir un paquete:
 
-1. Mantenga la MIT License de MBSim con el paquete.
+1. Mantenga la licencia de MBSim con el paquete.
 2. Mantenga los avisos de terceros y los textos de licencia con el paquete.
-3. Revise la página actual de licencias de Qt para los módulos incluidos en su compilación.
-4. Si distribuye un paquete creado con Qt de código abierto y módulos de Qt solo GPL, asegúrese de que la distribución cumpla GPLv3, o use una licencia comercial de Qt.
+3. Si redistribuye MBSim o lo incluye con un producto, obtenga permiso escrito del titular de derechos, salvo que la ley obligatoria disponga lo contrario.
+4. Revise la página actual de licencias de Qt para los módulos incluidos en su compilación.
+5. Si distribuye un paquete creado con Qt de código abierto y módulos de Qt solo GPL, asegúrese de que la distribución cumpla GPLv3, o use una licencia comercial de Qt.

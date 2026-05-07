@@ -6,11 +6,18 @@ advice.
 
 ## MBSim
 
-MBSim's own application code and documentation are distributed under the MIT
-License. See [LICENSE](LICENSE).
+MBSim's own application code and documentation are proprietary freeware.
+Official MBSim release packages may be installed and used free of charge. MBSim
+is not open-source software, and source code is not published. See
+[LICENSE](LICENSE).
 
-The MIT License applies to MBSim's own code. It does not relicense third-party
-runtime libraries shipped with the portable package.
+Donations, when available, are voluntary support for future development. They do
+not change license terms or create support, warranty, service, or maintenance
+obligations.
+
+The MBSim freeware license applies only to MBSim's own code and documentation.
+It does not relicense third-party runtime libraries shipped with the portable
+package.
 
 ## Qt Runtime
 
@@ -35,7 +42,8 @@ Important points for this project:
 - A redistributor of a binary package built with open-source Qt must ensure that
   the applicable GPL/LGPL obligations are satisfied, or use an appropriate
   commercial Qt license.
-- The MBSim MIT License does not remove or weaken the Qt license requirements.
+- The MBSim freeware license does not remove or weaken the Qt license
+  requirements.
 
 When a release package is built by the provided script, Qt license texts are
 copied into the package's `licenses/` directory when they are available in the
@@ -73,10 +81,12 @@ the relevant notices when redistributing the package.
 
 Before redistributing a package:
 
-1. Keep the MBSim MIT License with the package.
+1. Keep the MBSim license with the package.
 2. Keep the third-party notices and license texts with the package.
-3. Review Qt's current licensing page for the exact modules included in your
+3. If redistributing or bundling MBSim itself, obtain written permission from
+   the copyright holder unless mandatory law provides otherwise.
+4. Review Qt's current licensing page for the exact modules included in your
    build.
-4. If distributing a package built with open-source Qt and GPL-only Qt modules,
+5. If distributing a package built with open-source Qt and GPL-only Qt modules,
    make sure the distribution complies with GPLv3, or use a commercial Qt
    license.

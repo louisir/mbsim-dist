@@ -8,8 +8,9 @@ Idiomas: [English](README.md) | [简体中文](README.zh_CN.md) |
 Este repositorio aloja paquetes compilados de MBSim, un simulador de esclavo
 Modbus RTU/TCP.
 
-El codigo fuente se mantiene por separado. Descargue los paquetes desde GitHub
-Releases en lugar de clonar este repositorio.
+MBSim se distribuye como freeware propietario. El codigo fuente no se publica.
+Descargue los paquetes desde GitHub Releases en lugar de clonar este
+repositorio.
 
 ## Version mas reciente
 
@@ -38,13 +39,24 @@ Get-Content .\MBSim-v<version>-portable-windows-x64.zip.sha256
 El hash mostrado por `Get-FileHash` debe coincidir con el valor del archivo
 `.sha256`.
 
-## Licencias
+## Licencias y donaciones
 
-El codigo de la aplicacion MBSim y su documentacion se distribuyen bajo la MIT
-License. Consulte [LICENSE](LICENSE).
+El codigo de la aplicacion MBSim y su documentacion son freeware propietario.
+Puede instalar y usar gratuitamente los paquetes oficiales de MBSim. MBSim no
+es software de codigo abierto y el codigo fuente no se publica. Consulte
+[LICENSE](LICENSE).
+
+Las donaciones son apoyo voluntario para el desarrollo futuro. Una donacion no
+es una compra, no desbloquea derechos de licencia ni funciones adicionales, y
+no crea obligaciones de soporte, garantia, servicio o mantenimiento.
+
+La redistribucion, venta, modificacion, ingenieria inversa o creacion de obras
+derivadas de MBSim requiere permiso escrito separado del titular de derechos,
+salvo que la ley obligatoria disponga lo contrario. Los componentes de terceros
+siguen sujetos a sus propias licencias.
 
 El paquete portable tambien incluye componentes de terceros. Sus licencias son
-independientes de la MIT License de MBSim y deben respetarse al usar o
+independientes de la licencia freeware de MBSim y deben respetarse al usar o
 redistribuir el paquete:
 
 - Qt no es una dependencia de licencia unica. Qt ofrece licencias comerciales y
@@ -62,9 +74,10 @@ redistribuir el paquete:
 Consulte [THIRD-PARTY-NOTICES.es.md](THIRD-PARTY-NOTICES.es.md) para detalles y
 referencias oficiales.
 
-Este repositorio no ofrece asesoramiento legal. Si redistribuye MBSim en un
-producto comercial o entorno controlado, revise las licencias con asesoramiento
-legal cualificado.
+Este repositorio no ofrece asesoramiento legal. Si necesita redistribuir MBSim,
+incluirlo con otro producto o usarlo en un entorno controlado, revise la
+licencia de MBSim y las licencias de terceros con asesoramiento legal
+cualificado.
 
 ## Archivos de release
 

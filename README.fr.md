@@ -8,8 +8,9 @@ Langues: [English](README.md) | [简体中文](README.zh_CN.md) |
 Ce depot heberge les paquets compiles de MBSim, un simulateur esclave Modbus
 RTU/TCP.
 
-Le code source est maintenu separement. Telechargez les paquets depuis GitHub
-Releases au lieu de cloner ce depot.
+MBSim est distribue comme freeware proprietaire. Le code source n'est pas
+publie. Telechargez les paquets depuis GitHub Releases au lieu de cloner ce
+depot.
 
 ## Derniere version
 
@@ -38,14 +39,25 @@ Get-Content .\MBSim-v<version>-portable-windows-x64.zip.sha256
 Le hash affiche par `Get-FileHash` doit correspondre a la valeur du fichier
 `.sha256`.
 
-## Licences
+## Licences et dons
 
-Le code applicatif et la documentation propres a MBSim sont distribues sous MIT
-License. Voir [LICENSE](LICENSE).
+Le code applicatif et la documentation propres a MBSim sont un freeware
+proprietaire. Vous pouvez installer et utiliser gratuitement les paquets
+officiels de MBSim. MBSim n'est pas un logiciel open-source et le code source
+n'est pas publie. Voir [LICENSE](LICENSE).
+
+Les dons sont un soutien volontaire au developpement futur. Un don n'est pas
+un achat, ne debloque aucun droit de licence ni aucune fonction supplementaire,
+et ne cree aucune obligation de support, garantie, service ou maintenance.
+
+La redistribution, la vente, la modification, la retro-ingenierie ou la
+creation d'oeuvres derivees de MBSim necessite une autorisation ecrite separee
+du titulaire des droits, sauf lorsque la loi imperative l'autorise. Les
+composants tiers restent regis par leurs propres licences.
 
 Le paquet portable contient aussi des composants d'execution tiers. Leurs
-licences sont distinctes de la MIT License de MBSim et doivent etre respectees
-lors de l'utilisation ou de la redistribution du paquet:
+licences sont distinctes de la licence freeware de MBSim et doivent etre
+respectees lors de l'utilisation ou de la redistribution du paquet:
 
 - Qt n'est pas une dependance a licence unique. Qt propose des licences
   commerciales et open-source. Dans Qt open-source, de nombreux modules sont
@@ -63,9 +75,10 @@ lors de l'utilisation ou de la redistribution du paquet:
 Voir [THIRD-PARTY-NOTICES.fr.md](THIRD-PARTY-NOTICES.fr.md) pour les details et
 les references officielles.
 
-Ce depot ne fournit pas d'avis juridique. Si vous redistribuez MBSim dans un
-produit commercial ou un environnement controle, faites examiner les licences
-par un conseil qualifie.
+Ce depot ne fournit pas d'avis juridique. Si vous devez redistribuer MBSim,
+l'inclure avec un autre produit ou l'utiliser dans un environnement controle,
+faites examiner la licence MBSim et les licences tierces par un conseil
+qualifie.
 
 ## Fichiers de release
 

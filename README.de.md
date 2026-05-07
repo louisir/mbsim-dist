@@ -8,8 +8,9 @@ Sprachen: [English](README.md) | [简体中文](README.zh_CN.md) |
 Dieses Repository stellt kompilierte Release-Pakete fuer MBSim bereit, einen
 Modbus-RTU/TCP-Slave-Simulator.
 
-Der Quellcode wird separat verwaltet. Benutzer sollten Pakete aus GitHub
-Releases herunterladen, anstatt dieses Repository zu klonen.
+MBSim wird als proprietaere Freeware verteilt. Der Quellcode wird nicht
+veroeffentlicht. Benutzer sollten Pakete aus GitHub Releases herunterladen,
+anstatt dieses Repository zu klonen.
 
 ## Aktuelles Release
 
@@ -37,13 +38,24 @@ Get-Content .\MBSim-v<version>-portable-windows-x64.zip.sha256
 Der von `Get-FileHash` ausgegebene Hash muss mit dem Wert in der `.sha256`-
 Datei uebereinstimmen.
 
-## Lizenzierung
+## Lizenzierung und Spenden
 
-Der eigene MBSim-Anwendungscode und die Dokumentation stehen unter der MIT
-License. Siehe [LICENSE](LICENSE).
+Der eigene MBSim-Anwendungscode und die Dokumentation sind proprietaere
+Freeware. Sie duerfen offizielle MBSim-Release-Pakete kostenlos installieren
+und nutzen. MBSim ist keine Open-Source-Software, und der Quellcode wird nicht
+veroeffentlicht. Siehe [LICENSE](LICENSE).
+
+Spenden sind freiwillige Unterstuetzung fuer die weitere Entwicklung. Eine
+Spende ist kein Kauf, schaltet keine zusaetzlichen Lizenzrechte oder Funktionen
+frei und begruendet keine Support-, Garantie-, Service- oder Wartungspflicht.
+
+Weiterverteilung, Verkauf, Aenderung, Reverse Engineering oder Erstellung
+abgeleiteter Werke von MBSim selbst erfordern eine separate schriftliche
+Genehmigung des Rechteinhabers, soweit zwingendes Recht nichts anderes erlaubt.
+Drittanbieterkomponenten bleiben ihren eigenen Lizenzen unterworfen.
 
 Das Portable-Paket enthaelt auch Laufzeitkomponenten von Drittanbietern. Deren
-Lizenzen sind von der MIT License von MBSim getrennt und muessen bei Nutzung
+Lizenzen sind von der MBSim-Freeware-Lizenz getrennt und muessen bei Nutzung
 oder Weiterverteilung beachtet werden:
 
 - Qt ist keine Abhaengigkeit mit nur einer Lizenz. Qt ist unter kommerziellen
@@ -62,9 +74,10 @@ oder Weiterverteilung beachtet werden:
 Details und offizielle Referenzen finden Sie in
 [THIRD-PARTY-NOTICES.de.md](THIRD-PARTY-NOTICES.de.md).
 
-Dieses Repository bietet keine Rechtsberatung. Pruefen Sie die relevanten
-Lizenzen mit qualifiziertem Rechtsbeistand, wenn Sie MBSim kommerziell oder in
-einer kontrollierten Umgebung weiterverteilen.
+Dieses Repository bietet keine Rechtsberatung. Wenn Sie MBSim weiterverteilen,
+mit einem anderen Produkt buendeln oder in einer kontrollierten Umgebung
+nutzen wollen, pruefen Sie die MBSim-Lizenz und die Drittanbieter-Lizenzen mit
+qualifiziertem Rechtsbeistand.
 
 ## Release-Dateien
 

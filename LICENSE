@@ -1,21 +1,58 @@
-MIT License
+MBSim Freeware License
 
 Copyright (c) 2026 fr7stum
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license applies only to MBSim's own application code, binaries,
+configuration files, resources, and documentation in official MBSim release
+packages. Third-party components are licensed separately by their respective
+copyright holders.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Free Use
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You may install and use official MBSim release packages free of charge for
+personal, educational, internal, and commercial use. You may make reasonable
+copies of official release packages for your own installation, backup, and
+internal deployment within your organization.
+
+2. No Open Source Grant
+
+MBSim is proprietary software. This license does not grant access to MBSim
+source code, and no source code license is granted.
+
+3. Restrictions
+
+Except where expressly permitted by this license, a separate written permission
+from the copyright holder, an applicable third-party license, or mandatory law,
+you may not:
+
+- copy or redistribute MBSim release packages to third parties;
+- sell, rent, sublicense, or provide MBSim as a hosted service;
+- modify, adapt, translate, merge, or create derivative works of MBSim;
+- reverse engineer, decompile, disassemble, or otherwise attempt to derive the
+  source code or internal implementation of MBSim;
+- remove or alter copyright, license, or attribution notices.
+
+4. Donations
+
+Donations are voluntary support for future development. A donation is not a
+purchase, does not unlock additional license rights or features, and does not
+create a support, warranty, service, or maintenance obligation.
+
+5. Third-Party Components
+
+Official release packages may include third-party runtime components. Those
+components remain governed by their own licenses. Where a third-party license
+gives you rights that this license does not, the third-party license controls
+for that component only.
+
+6. No Warranty
+
+MBSim is provided "as is", without warranty of any kind, express or implied,
+including but not limited to warranties of merchantability, fitness for a
+particular purpose, and noninfringement.
+
+7. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the copyright holder and
+contributors are not liable for any claim, damages, or other liability arising
+from or related to MBSim or the use of MBSim.

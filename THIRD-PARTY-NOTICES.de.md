@@ -4,9 +4,11 @@ Dieses Dokument fasst die wichtigsten Lizenzthemen fuer MBSim-Release-Pakete zus
 
 ## MBSim
 
-Der eigene Anwendungscode und die Dokumentation von MBSim werden unter der MIT License verteilt. Siehe [LICENSE](LICENSE).
+Der eigene Anwendungscode und die Dokumentation von MBSim sind proprietaere Freeware. Offizielle MBSim-Release-Pakete duerfen kostenlos installiert und genutzt werden. MBSim ist keine Open-Source-Software, und der Quellcode wird nicht veroeffentlicht. Siehe [LICENSE](LICENSE).
 
-Die MIT License gilt fuer den eigenen MBSim-Code. Sie lizenziert die mitgelieferten Drittanbieter-Laufzeitbibliotheken nicht erneut als MIT.
+Spenden, sofern angeboten, sind freiwillige Unterstuetzung fuer die weitere Entwicklung. Sie aendern keine Lizenzbedingungen und begruenden keine Support-, Garantie-, Service- oder Wartungspflichten.
+
+Die MBSim-Freeware-Lizenz gilt nur fuer den eigenen MBSim-Code und die Dokumentation. Sie lizenziert die mitgelieferten Drittanbieter-Laufzeitbibliotheken nicht neu.
 
 ## Qt Runtime
 
@@ -23,7 +25,7 @@ Wichtige Punkte fuer dieses Projekt:
 - MBSim importiert und verwendet Qt Quick 3D. Die Qt-Lizenzseite listet Qt Quick 3D fuer Open-Source-Nutzer als Modul unter GNU GPL v3.
 - Die Windows-Bereitstellung kann auch Qt-Virtual-Keyboard-Laufzeitdateien enthalten. Die Qt-Lizenzseite listet auch Qt Virtual Keyboard fuer Open-Source-Nutzer als Modul unter GNU GPL v3.
 - Wer ein binaeres Paket mit Open-Source-Qt weiterverteilt, muss sicherstellen, dass die anwendbaren GPL/LGPL-Pflichten eingehalten werden, oder eine passende kommerzielle Qt-Lizenz verwenden.
-- Die MIT License von MBSim entfernt oder schwaecht die Qt-Lizenzanforderungen nicht.
+- Die MBSim-Freeware-Lizenz entfernt oder schwaecht die Qt-Lizenzanforderungen nicht.
 
 Wenn ein Release-Paket mit dem bereitgestellten Skript gebaut wird, werden Qt-Lizenztexte in das Verzeichnis `licenses/` des Pakets kopiert, sofern sie in der lokalen Qt-Installation vorhanden sind.
 
@@ -53,7 +55,8 @@ Das Windows-Portable-Paket kann MinGW/GCC-Laufzeitbibliotheken wie `libgcc_s_seh
 
 Vor der Weiterverteilung eines Pakets:
 
-1. Behalten Sie die MBSim MIT License im Paket.
+1. Behalten Sie die MBSim-Lizenz im Paket.
 2. Behalten Sie die Drittanbieter-Hinweise und Lizenztexte im Paket.
-3. Pruefen Sie die aktuelle Qt-Lizenzseite fuer die in Ihrem Build enthaltenen Module.
-4. Wenn Sie ein Paket mit Open-Source-Qt und GPL-only-Qt-Modulen verteilen, stellen Sie die Einhaltung von GPLv3 sicher oder verwenden Sie eine kommerzielle Qt-Lizenz.
+3. Wenn Sie MBSim selbst weiterverteilen oder mit einem Produkt buendeln, holen Sie eine schriftliche Genehmigung des Rechteinhabers ein, sofern zwingendes Recht nichts anderes erlaubt.
+4. Pruefen Sie die aktuelle Qt-Lizenzseite fuer die in Ihrem Build enthaltenen Module.
+5. Wenn Sie ein Paket mit Open-Source-Qt und GPL-only-Qt-Modulen verteilen, stellen Sie die Einhaltung von GPLv3 sicher oder verwenden Sie eine kommerzielle Qt-Lizenz.
