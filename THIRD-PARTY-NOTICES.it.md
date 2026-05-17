@@ -4,7 +4,7 @@ Questo documento riassume i principali obblighi di licenza per i pacchetti di ri
 
 ## MBSim
 
-Il codice applicativo di MBSim e la documentazione sono freeware proprietario. I pacchetti ufficiali di MBSim possono essere installati e usati gratuitamente. MBSim non e software open-source e il codice sorgente non e pubblicato. Vedere [LICENSE](LICENSE).
+Il codice applicativo di MBSim e la documentazione sono freeware proprietario. I pacchetti ufficiali di MBSim possono essere installati e usati gratuitamente. MBSim non e software open-source e il codice sorgente non e pubblicato. Vedere [LICENSE](LICENSE.it.md).
 
 Le donazioni, quando disponibili, sono supporto volontario per lo sviluppo futuro. Non cambiano i termini di licenza e non creano obblighi di supporto, garanzia, servizio o manutenzione.
 

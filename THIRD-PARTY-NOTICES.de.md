@@ -4,7 +4,7 @@ Dieses Dokument fasst die wichtigsten Lizenzthemen fuer MBSim-Release-Pakete zus
 
 ## MBSim
 
-Der eigene Anwendungscode und die Dokumentation von MBSim sind proprietaere Freeware. Offizielle MBSim-Release-Pakete duerfen kostenlos installiert und genutzt werden. MBSim ist keine Open-Source-Software, und der Quellcode wird nicht veroeffentlicht. Siehe [LICENSE](LICENSE).
+Der eigene Anwendungscode und die Dokumentation von MBSim sind proprietaere Freeware. Offizielle MBSim-Release-Pakete duerfen kostenlos installiert und genutzt werden. MBSim ist keine Open-Source-Software, und der Quellcode wird nicht veroeffentlicht. Siehe [LICENSE](LICENSE.de.md).
 
 Spenden, sofern angeboten, sind freiwillige Unterstuetzung fuer die weitere Entwicklung. Sie aendern keine Lizenzbedingungen und begruenden keine Support-, Garantie-, Service- oder Wartungspflichten.
 

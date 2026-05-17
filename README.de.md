@@ -43,7 +43,7 @@ Datei uebereinstimmen.
 Der eigene MBSim-Anwendungscode und die Dokumentation sind proprietaere
 Freeware. Sie duerfen offizielle MBSim-Release-Pakete kostenlos installieren
 und nutzen. MBSim ist keine Open-Source-Software, und der Quellcode wird nicht
-veroeffentlicht. Siehe [LICENSE](LICENSE).
+veroeffentlicht. Siehe [LICENSE](LICENSE.de.md).
 
 Spenden sind freiwillige Unterstuetzung fuer die weitere Entwicklung. Eine
 Spende ist kein Kauf, schaltet keine zusaetzlichen Lizenzrechte oder Funktionen

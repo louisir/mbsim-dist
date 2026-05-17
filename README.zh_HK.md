@@ -38,7 +38,7 @@ Get-Content .\MBSim-v<version>-portable-windows-x64.zip.sha256
 ## 軟體授權和打賞
 
 MBSim 自身的應用程式碼和文件採用專有免費軟體授權。你可以免費下載、安裝並使用官方
-發布包。MBSim 不是開源軟體，原始碼不公開。授權條款見 [LICENSE](LICENSE)。
+發布包。MBSim 不是開源軟體，原始碼不公開。授權條款見 [LICENSE](LICENSE.zh_HK.md)。
 
 打賞是對後續開發的自願支持。打賞不是購買軟體，不會解鎖額外授權或功能，也不會
 形成支援、保固、服務或維護義務。

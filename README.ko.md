@@ -40,7 +40,7 @@ Get-Content .\MBSim-v<version>-portable-windows-x64.zip.sha256
 
 MBSim 자체 애플리케이션 코드와 문서는 무료로 사용할 수 있는 독점 소프트웨어로
 제공됩니다. 공식 MBSim 릴리스 패키지는 무료로 설치하고 사용할 수 있습니다. MBSim은
-오픈소스 소프트웨어가 아니며 소스 코드는 공개되지 않습니다. [LICENSE](LICENSE)를
+오픈소스 소프트웨어가 아니며 소스 코드는 공개되지 않습니다. [LICENSE](LICENSE.ko.md)를
 참조하십시오.
 
 후원은 향후 개발을 위한 자발적 지원입니다. 후원은 구매가 아니며 추가 라이선스 권리나

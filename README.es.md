@@ -44,7 +44,7 @@ El hash mostrado por `Get-FileHash` debe coincidir con el valor del archivo
 El codigo de la aplicacion MBSim y su documentacion son freeware propietario.
 Puede instalar y usar gratuitamente los paquetes oficiales de MBSim. MBSim no
 es software de codigo abierto y el codigo fuente no se publica. Consulte
-[LICENSE](LICENSE).
+[LICENSE](LICENSE.es.md).
 
 Las donaciones son apoyo voluntario para el desarrollo futuro. Una donacion no
 es una compra, no desbloquea derechos de licencia ni funciones adicionales, y
