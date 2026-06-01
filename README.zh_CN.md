@@ -5,15 +5,46 @@
 [Français](README.fr.md) | [Italiano](README.it.md) |
 [日本語](README.ja.md) | [한국어](README.ko.md)
 
-本仓库用于托管 MBSim 的编译后发布包。MBSim 是一个 Modbus RTU/TCP 从站模拟器。
+MBSim 是一个面向调试和联调场景的 Modbus RTU/TCP 从站模拟器。它用于在没有
+真实设备、设备不方便接入，或需要批量构造测试数据时，模拟 Modbus 从站并配合
+PLC、上位机、网关、采集程序等主站系统进行验证。
 
-MBSim 以免费使用但不开源的形式发布，源码不公开。普通用户应从 GitHub Releases
-下载发布包，而不是 clone 本仓库。
+和传统 Modbus Slave 类工具相比，MBSim 更偏向现代化的工程联调体验：界面更适合
+当前 Windows 环境，支持通过点表组织模拟数据，并以免安装包形式发布，方便在测试机、
+现场电脑或临时联调环境中直接使用。
+
+本仓库是 MBSim 的发布仓库，不包含源码。这里提供 Windows x64 免安装包、SHA256
+校验文件、软件授权条款和第三方组件授权说明。MBSim 以免费使用但不开源的形式发布，
+源码不公开。
+
+## 主要优势
+
+- Excel 点表驱动：可以用 `Points`、`Mappings`、`Simulation`、`Enums` 四张表描述
+  完整设备点表，不需要逐个手工维护寄存器。
+- 更接近真实设备语义：除了寄存器值，还可以描述点位名称、分类、单位、枚举、
+  工程值、原始值、读写属性等信息。
+- 支持工程值转换：支持比例换算、偏移、表达式、Raw/Value 映射，以及 32 位、64 位、
+  字符串、bit field 等常见场景。
+- 内置仿真行为：点位可以配置 `manual`、`const`、`rand`、`ramp`、`sine`、`expr`，
+  适合模拟动态传感器、累计量、周期波动等数据。
+- 运行时故障注入：可以按从站、功能码、地址范围、触发次数或概率返回 Modbus 异常码，
+  用来测试主站的容错和重试逻辑。
+- 多从站和多实例：可以一次模拟一段 Slave ID，也可以启动多个实例，适合测试主站轮询
+  多设备的场景。
+- 点表校验：加载 Excel 时会检查表头、引用、地址重叠、类型、表达式等问题，提前发现
+  点表错误。
 
 ## 最新版本
 
 - 最新版本: https://github.com/louisir/mbsim-dist/releases/latest
 - 全部版本: https://github.com/louisir/mbsim-dist/releases
+
+## 界面截图和示例文件
+
+![MBSim 界面截图](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+
+- 示例协议: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
+- 示例点表: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
 
 ## Windows 免安装包
 

@@ -5,17 +5,61 @@ Lingue: [English](README.md) | [简体中文](README.zh_CN.md) |
 [Español](README.es.md) | [Français](README.fr.md) | Italiano |
 [日本語](README.ja.md) | [한국어](README.ko.md)
 
-Questo repository ospita i pacchetti compilati di MBSim, un simulatore slave
-Modbus RTU/TCP.
+MBSim e un simulatore slave Modbus RTU/TCP per scenari di debug e integrazione.
+Permette di simulare slave Modbus quando i dispositivi reali non sono
+disponibili, non sono pratici da collegare, o quando e necessario costruire
+dati di test in blocco per validarli con PLC, applicazioni host, gateway,
+programmi di acquisizione dati e altri master Modbus.
 
-MBSim e distribuito come freeware proprietario. Il codice sorgente non e
-pubblicato. Scaricare i pacchetti da GitHub Releases invece di clonare questo
-repository.
+Rispetto agli strumenti tradizionali di tipo Modbus Slave, MBSim e orientato a
+un'esperienza di integrazione tecnica piu moderna: l'interfaccia si adatta agli
+ambienti Windows attuali, i dati simulati possono essere organizzati tramite
+mappe di registri, e il pacchetto portable puo essere usato direttamente su
+macchine di test, PC in campo o ambienti temporanei di integrazione.
+
+Questo repository e il repository di release di MBSim e non contiene codice
+sorgente. Fornisce il pacchetto portable Windows x64, i file di verifica
+SHA256, i termini di licenza del software e gli avvisi di licenza dei componenti
+di terze parti. MBSim e distribuito come freeware proprietario e il codice
+sorgente non e pubblicato.
+
+## Vantaggi principali
+
+- Basato su mappe Excel: usare i fogli `Points`, `Mappings`, `Simulation` e
+  `Enums` per descrivere una mappa punti completa del dispositivo senza
+  mantenere i registri manualmente uno per uno.
+- Piu vicino alla semantica di un dispositivo reale: oltre ai valori dei
+  registri, e possibile descrivere nomi dei punti, categorie, unita, enum,
+  valori di engineering, valori raw, attributi di lettura/scrittura e altre
+  informazioni.
+- Conversione dei valori di engineering: supporta scaling, offset, espressioni,
+  mapping Raw/Value e casi comuni come valori a 32 bit, valori a 64 bit,
+  stringhe e bit field.
+- Comportamenti di simulazione integrati: i punti possono essere configurati
+  come `manual`, `const`, `rand`, `ramp`, `sine` o `expr`, adatti a simulare
+  sensori dinamici, accumulatori, oscillazioni periodiche e dati simili.
+- Iniezione di guasti a runtime: permette di restituire codici di eccezione
+  Modbus per slave, codice funzione, intervallo di indirizzi, numero di trigger
+  o probabilita, per testare tolleranza agli errori e logica di retry del
+  master.
+- Piu slave e piu istanze: si puo simulare un intervallo di Slave ID in una
+  volta o avviare piu istanze, utile per testare il polling del master su molti
+  dispositivi.
+- Validazione delle mappe: durante il caricamento di Excel, MBSim controlla
+  intestazioni, riferimenti, sovrapposizioni di indirizzi, tipi, espressioni e
+  altri problemi per individuare in anticipo gli errori della mappa.
 
 ## Ultima release
 
 - Ultima release: https://github.com/louisir/mbsim-dist/releases/latest
 - Tutte le release: https://github.com/louisir/mbsim-dist/releases
+
+## Screenshot e file di esempio
+
+![Screenshot dell'interfaccia MBSim](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+
+- Protocollo di esempio: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
+- Mappa registri di esempio: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
 
 ## Pacchetto portable per Windows
 

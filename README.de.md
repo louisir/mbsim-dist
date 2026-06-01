@@ -5,17 +5,63 @@ Sprachen: [English](README.md) | [简体中文](README.zh_CN.md) |
 [Français](README.fr.md) | [Italiano](README.it.md) |
 [日本語](README.ja.md) | [한국어](README.ko.md)
 
-Dieses Repository stellt kompilierte Release-Pakete fuer MBSim bereit, einen
-Modbus-RTU/TCP-Slave-Simulator.
+MBSim ist ein Modbus-RTU/TCP-Slave-Simulator fuer Debugging- und
+Integrationsszenarien. Er kann Modbus-Slaves simulieren, wenn reale Geraete
+nicht verfuegbar oder schwer anzuschliessen sind, oder wenn Testdaten in groesserem
+Umfang fuer die Validierung mit PLCs, Host-Anwendungen, Gateways,
+Datenerfassungsprogrammen und anderen Modbus-Mastern aufgebaut werden muessen.
 
-MBSim wird als proprietaere Freeware verteilt. Der Quellcode wird nicht
-veroeffentlicht. Benutzer sollten Pakete aus GitHub Releases herunterladen,
-anstatt dieses Repository zu klonen.
+Im Vergleich zu klassischen Modbus-Slave-Werkzeugen ist MBSim staerker auf eine
+moderne Engineering-Integrationserfahrung ausgerichtet: Die Oberflaeche passt
+zu aktuellen Windows-Umgebungen, simulierte Daten lassen sich ueber
+Registertabellen organisieren, und das Portable-Paket kann direkt auf
+Testrechnern, Vor-Ort-PCs oder in temporaeren Integrationsumgebungen genutzt
+werden.
+
+Dieses Repository ist das MBSim-Release-Repository und enthaelt keinen
+Quellcode. Es stellt das Windows-x64-Portable-Paket, SHA256-Pruefsummendateien,
+Software-Lizenzbedingungen und Lizenzhinweise zu Drittanbieterkomponenten
+bereit. MBSim wird als proprietaere Freeware verteilt, und der Quellcode wird
+nicht veroeffentlicht.
+
+## Hauptvorteile
+
+- Excel-Registertabellen: Mit den vier Tabellen `Points`, `Mappings`,
+  `Simulation` und `Enums` kann eine vollstaendige Geraete-Registertabelle
+  beschrieben werden, ohne Register einzeln manuell zu pflegen.
+- Naeher an realer Geraetesemantik: Neben Registerwerten koennen auch
+  Punktnamen, Kategorien, Einheiten, Enumerationen, Engineering-Werte,
+  Rohwerte, Lese-/Schreibattribute und weitere Informationen beschrieben
+  werden.
+- Unterstuetzung fuer Engineering-Wertumrechnung: Skalierung, Offset,
+  Ausdruecke, Raw/Value-Zuordnung sowie typische Faelle wie 32-Bit-Werte,
+  64-Bit-Werte, Strings und Bitfelder werden unterstuetzt.
+- Eingebautes Simulationsverhalten: Punkte koennen als `manual`, `const`,
+  `rand`, `ramp`, `sine` oder `expr` konfiguriert werden, geeignet fuer
+  dynamische Sensoren, Zaehlerstaende, periodische Schwankungen und aehnliche
+  Daten.
+- Laufzeit-Fehlerinjektion: Modbus-Ausnahmecodes koennen nach Slave,
+  Funktionscode, Adressbereich, Ausloeseanzahl oder Wahrscheinlichkeit
+  zurueckgegeben werden, um Fehlertoleranz und Wiederholungslogik des Masters
+  zu testen.
+- Mehrere Slaves und Instanzen: Ein Bereich von Slave IDs kann auf einmal
+  simuliert werden, oder mehrere Instanzen koennen fuer Tests mit Master-Polling
+  ueber viele Geraete gestartet werden.
+- Registertabellen-Validierung: Beim Laden von Excel-Dateien prueft MBSim
+  Kopfzeilen, Referenzen, Adressueberlappungen, Typen, Ausdruecke und weitere
+  Probleme, um Fehler in Registertabellen frueh zu erkennen.
 
 ## Aktuelles Release
 
 - Aktuelles Release: https://github.com/louisir/mbsim-dist/releases/latest
 - Alle Releases: https://github.com/louisir/mbsim-dist/releases
+
+## Screenshots und Beispieldateien
+
+![Screenshot der MBSim-Oberflaeche](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+
+- Beispielprotokoll: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
+- Beispiel-Registertabelle: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
 
 ## Windows-Portable-Paket
 

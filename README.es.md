@@ -5,17 +5,62 @@ Idiomas: [English](README.md) | [简体中文](README.zh_CN.md) |
 [Français](README.fr.md) | [Italiano](README.it.md) |
 [日本語](README.ja.md) | [한국어](README.ko.md)
 
-Este repositorio aloja paquetes compilados de MBSim, un simulador de esclavo
-Modbus RTU/TCP.
+MBSim es un simulador de esclavo Modbus RTU/TCP orientado a escenarios de
+depuracion e integracion. Permite simular esclavos Modbus cuando no hay
+dispositivos reales disponibles, cuando conectarlos no es practico, o cuando se
+necesitan construir datos de prueba en lote para validarlos con PLC,
+aplicaciones host, gateways, programas de adquisicion de datos y otros maestros
+Modbus.
 
-MBSim se distribuye como freeware propietario. El codigo fuente no se publica.
-Descargue los paquetes desde GitHub Releases en lugar de clonar este
-repositorio.
+Frente a las herramientas tradicionales de tipo Modbus Slave, MBSim se orienta
+mas a una experiencia moderna de integracion de ingenieria: la interfaz encaja
+mejor en entornos Windows actuales, los datos simulados pueden organizarse
+mediante tablas de registros, y el paquete portable puede usarse directamente
+en equipos de prueba, equipos de campo o entornos temporales de integracion.
+
+Este repositorio es el repositorio de releases de MBSim y no contiene codigo
+fuente. Proporciona el paquete portable Windows x64, archivos de verificacion
+SHA256, terminos de licencia del software y avisos de licencia de componentes
+de terceros. MBSim se distribuye como freeware propietario y el codigo fuente
+no se publica.
+
+## Ventajas principales
+
+- Basado en tablas Excel: use las hojas `Points`, `Mappings`, `Simulation` y
+  `Enums` para describir una tabla completa de puntos del dispositivo sin
+  mantener los registros manualmente uno por uno.
+- Semantica mas cercana a un dispositivo real: ademas de los valores de
+  registro, puede describir nombres de puntos, categorias, unidades, enums,
+  valores de ingenieria, valores raw, atributos de lectura/escritura y otra
+  informacion.
+- Conversion de valores de ingenieria: admite escalado, desplazamiento,
+  expresiones, mapeos Raw/Value y casos habituales como valores de 32 bits,
+  valores de 64 bits, strings y bit fields.
+- Comportamiento de simulacion integrado: los puntos pueden configurarse como
+  `manual`, `const`, `rand`, `ramp`, `sine` o `expr`, adecuado para simular
+  sensores dinamicos, acumuladores, fluctuaciones periodicas y datos similares.
+- Inyeccion de fallos en tiempo de ejecucion: permite devolver codigos de
+  excepcion Modbus por esclavo, codigo de funcion, rango de direcciones, numero
+  de activaciones o probabilidad para probar la tolerancia a fallos y la logica
+  de reintento del maestro.
+- Multiples esclavos e instancias: puede simular un rango de Slave ID de una
+  vez o iniciar varias instancias, util para probar el sondeo del maestro sobre
+  muchos dispositivos.
+- Validacion de tablas: al cargar Excel, MBSim revisa encabezados, referencias,
+  solapamientos de direcciones, tipos, expresiones y otros problemas para
+  detectar errores de la tabla con anticipacion.
 
 ## Version mas reciente
 
 - Version mas reciente: https://github.com/louisir/mbsim-dist/releases/latest
 - Todas las versiones: https://github.com/louisir/mbsim-dist/releases
+
+## Capturas de pantalla y archivos de ejemplo
+
+![Captura de pantalla de la interfaz de MBSim](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+
+- Protocolo de ejemplo: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
+- Tabla de registros de ejemplo: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
 
 ## Paquete portable para Windows
 

@@ -6,16 +6,57 @@ Languages: English | [简体中文](README.zh_CN.md) |
 [Italiano](README.it.md) | [日本語](README.ja.md) |
 [한국어](README.ko.md)
 
-This repository hosts compiled release packages for MBSim, a Modbus RTU/TCP
-slave simulator.
+MBSim is a Modbus RTU/TCP slave simulator for debugging and integration
+scenarios. It lets you simulate Modbus slaves when real devices are unavailable,
+inconvenient to connect, or when you need to construct test data in bulk for
+validation with PLCs, host applications, gateways, data collection programs,
+and other Modbus masters.
 
-MBSim is distributed as proprietary freeware. Source code is not published.
-Download packages from GitHub Releases instead of cloning this repository.
+Compared with traditional Modbus Slave-style tools, MBSim is oriented toward a
+more modern engineering integration experience: the interface fits current
+Windows environments, simulated data can be organized through register maps,
+and the portable package can be used directly on test machines, site computers,
+or temporary integration environments.
+
+This repository is the MBSim release repository and does not contain source
+code. It provides the Windows x64 portable package, SHA256 checksum files,
+software license terms, and third-party component license notices. MBSim is
+distributed as proprietary freeware, and source code is not published.
+
+## Key Advantages
+
+- Excel register-map driven: use the `Points`, `Mappings`, `Simulation`, and
+  `Enums` sheets to describe a complete device register map without manually
+  maintaining registers one by one.
+- Closer to real device semantics: in addition to register values, you can
+  describe point names, categories, units, enums, engineering values, raw
+  values, read/write attributes, and related information.
+- Engineering value conversion: supports scaling, offsets, expressions,
+  Raw/Value mappings, and common cases such as 32-bit values, 64-bit values,
+  strings, and bit fields.
+- Built-in simulation behavior: points can be configured as `manual`, `const`,
+  `rand`, `ramp`, `sine`, or `expr`, which is useful for simulating dynamic
+  sensors, accumulators, periodic fluctuations, and similar data.
+- Runtime fault injection: return Modbus exception codes by slave, function
+  code, address range, trigger count, or probability to test master-side
+  tolerance and retry logic.
+- Multiple slaves and instances: simulate a range of Slave IDs at once, or
+  launch multiple instances for testing master polling across many devices.
+- Register-map validation: when loading Excel files, MBSim checks headers,
+  references, address overlaps, types, expressions, and related issues to catch
+  register-map errors early.
 
 ## Latest Release
 
 - Latest release: https://github.com/louisir/mbsim-dist/releases/latest
 - All releases: https://github.com/louisir/mbsim-dist/releases
+
+## Screenshots and Example Files
+
+![MBSim interface screenshot](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+
+- Sample protocol: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
+- Sample register map: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
 
 ## Windows Portable Package
 
