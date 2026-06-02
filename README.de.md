@@ -58,10 +58,10 @@ nicht veroeffentlicht.
 
 ## Screenshots und Beispieldateien
 
-![Screenshot der MBSim-Oberflaeche](https://iamlouis.online/GY21249.jpg)
+![Screenshot der MBSim-Oberflaeche](assets/GY21249.jpg)
 
-- Beispielprotokoll: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
-- Beispiel-Registertabelle: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
+- Beispielprotokoll: [GY21249.pdf](assets/GY21249.pdf)
+- Beispiel-Registertabelle: [XY-MD03_GY21249.xlsx](assets/XY-MD03_GY21249.xlsx)
 
 ## Windows-Portable-Paket
 

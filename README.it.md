@@ -56,10 +56,10 @@ sorgente non e pubblicato.
 
 ## Screenshot e file di esempio
 
-![Screenshot dell'interfaccia MBSim](https://iamlouis.online/GY21249.jpg)
+![Screenshot dell'interfaccia MBSim](assets/GY21249.jpg)
 
-- Protocollo di esempio: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
-- Mappa registri di esempio: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
+- Protocollo di esempio: [GY21249.pdf](assets/GY21249.pdf)
+- Mappa registri di esempio: [XY-MD03_GY21249.xlsx](assets/XY-MD03_GY21249.xlsx)
 
 ## Pacchetto portable per Windows
 

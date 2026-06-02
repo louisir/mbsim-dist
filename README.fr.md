@@ -58,10 +58,10 @@ source n'est pas publie.
 
 ## Captures d'ecran et fichiers d'exemple
 
-![Capture d'ecran de l'interface MBSim](https://iamlouis.online/GY21249.jpg)
+![Capture d'ecran de l'interface MBSim](assets/GY21249.jpg)
 
-- Protocole d'exemple: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
-- Table de registres d'exemple: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
+- Protocole d'exemple: [GY21249.pdf](assets/GY21249.pdf)
+- Table de registres d'exemple: [XY-MD03_GY21249.xlsx](assets/XY-MD03_GY21249.xlsx)
 
 ## Paquet portable Windows
 
