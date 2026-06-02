@@ -56,10 +56,10 @@ sorgente non e pubblicato.
 
 ## Screenshot e file di esempio
 
-![Screenshot dell'interfaccia MBSim](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+![Screenshot dell'interfaccia MBSim](https://iamlouis.online/2026-06-02_17-44-44.jpg)
 
-- Protocollo di esempio: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
-- Mappa registri di esempio: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
+- Protocollo di esempio: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
+- Mappa registri di esempio: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
 
 ## Pacchetto portable per Windows
 

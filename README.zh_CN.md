@@ -41,10 +41,10 @@ PLC、上位机、网关、采集程序等主站系统进行验证。
 
 ## 界面截图和示例文件
 
-![MBSim 界面截图](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+![MBSim 界面截图](https://iamlouis.online/2026-06-02_17-44-44.jpg)
 
-- 示例协议: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
-- 示例点表: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
+- 示例协议: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
+- 示例点表: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
 
 ## Windows 免安装包
 

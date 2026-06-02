@@ -58,10 +58,10 @@ source n'est pas publie.
 
 ## Captures d'ecran et fichiers d'exemple
 
-![Capture d'ecran de l'interface MBSim](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+![Capture d'ecran de l'interface MBSim](https://iamlouis.online/2026-06-02_17-44-44.jpg)
 
-- Protocole d'exemple: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
-- Table de registres d'exemple: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
+- Protocole d'exemple: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
+- Table de registres d'exemple: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
 
 ## Paquet portable Windows
 

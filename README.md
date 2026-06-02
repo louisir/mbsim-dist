@@ -53,10 +53,10 @@ distributed as proprietary freeware, and source code is not published.
 
 ## Screenshots and Example Files
 
-![MBSim interface screenshot](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+![MBSim interface screenshot](https://iamlouis.online/2026-06-02_17-44-44.jpg)
 
-- Sample protocol: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
-- Sample register map: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
+- Sample protocol: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
+- Sample register map: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
 
 ## Windows Portable Package
 

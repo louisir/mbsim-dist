@@ -58,10 +58,10 @@ nicht veroeffentlicht.
 
 ## Screenshots und Beispieldateien
 
-![Screenshot der MBSim-Oberflaeche](https://www.iamlouis.online/20210802093110vmwpnx.jpg)
+![Screenshot der MBSim-Oberflaeche](https://iamlouis.online/2026-06-02_17-44-44.jpg)
 
-- Beispielprotokoll: [20210802093110vmwpnx.pdf](https://www.iamlouis.online/20210802093110vmwpnx.pdf)
-- Beispiel-Registertabelle: [20210802093110vmwpnx.xlsx](https://www.iamlouis.online/20210802093110vmwpnx.xlsx)
+- Beispielprotokoll: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
+- Beispiel-Registertabelle: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
 
 ## Windows-Portable-Paket
 
