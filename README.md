@@ -53,7 +53,7 @@ distributed as proprietary freeware, and source code is not published.
 
 ## Screenshots and Example Files
 
-![MBSim interface screenshot](https://iamlouis.online/2026-06-02_17-44-44.jpg)
+![MBSim interface screenshot](https://iamlouis.online/GY21249.jpg)
 
 - Sample protocol: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
 - Sample register map: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)

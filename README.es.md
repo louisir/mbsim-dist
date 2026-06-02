@@ -57,7 +57,7 @@ no se publica.
 
 ## Capturas de pantalla y archivos de ejemplo
 
-![Captura de pantalla de la interfaz de MBSim](https://iamlouis.online/2026-06-02_17-44-44.jpg)
+![Captura de pantalla de la interfaz de MBSim](https://iamlouis.online/GY21249.jpg)
 
 - Protocolo de ejemplo: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
 - Tabla de registros de ejemplo: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)

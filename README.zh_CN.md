@@ -41,7 +41,7 @@ PLC、上位机、网关、采集程序等主站系统进行验证。
 
 ## 界面截图和示例文件
 
-![MBSim 界面截图](https://iamlouis.online/2026-06-02_17-44-44.jpg)
+![MBSim 界面截图](https://iamlouis.online/GY21249.jpg)
 
 - 示例协议: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
 - 示例点表: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)

@@ -41,7 +41,7 @@ PLC、上位機、閘道、採集程式等主站系統進行驗證。
 
 ## 界面截圖和範例檔案
 
-![MBSim 界面截圖](https://iamlouis.online/2026-06-02_17-44-44.jpg)
+![MBSim 界面截圖](https://iamlouis.online/GY21249.jpg)
 
 - 範例協議: [GY21249.pdf](https://www.iamlouis.online/GY21249.pdf)
 - 範例點表: [XY-MD03_GY21249.xlsx](https://www.iamlouis.online/XY-MD03_GY21249.xlsx)
