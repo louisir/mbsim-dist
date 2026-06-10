@@ -1,2 +1,4 @@
+# Release packages and extracted portable builds
 MBSim-v*-portable-windows-x64.zip
 MBSim-v*-portable-windows-x64.zip.sha256
+MBSim-v*-portable-windows-x64/
